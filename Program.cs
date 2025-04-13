@@ -10,7 +10,7 @@
 
             userRepository.Add(new User { Id = 0, Email = "ion@gmail.com", Name = "Ion" });
             userRepository.Add(new User { Id = 1, Email = "dana@gmail.com", Name = "Dana" });
-            userRepository.Add(new User { Id = 2, Email = "iacov@gmail.com", Name = "Iacov" });
+            userRepository.Add(new User { Id = 2, Email = "iacob@gmail.com", Name = "Iacob" });
 
             postRepository.Add(new Post { Id = 0, Title = "First Post", Content = "This is the first post", UserId = 1 });
             postRepository.Add(new Post { Id = 1, Title = "Second Post", Content = "This is the Second post", UserId = 2 });
